@@ -1,0 +1,32 @@
+{
+  "name": "overlapping-indices",
+  "version": "1.0.0",
+  "description": "An example of overlapping indices in Redis",
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node lib/server.ts",
+    "build": "tsup",
+    "start": "node dist/server.js",
+    "test": "vitest"
+  },
+  "tsup": {
+    "entry": [
+      "lib/server.ts"
+    ],
+    "splitting": false,
+    "format": "esm",
+    "clean": true
+  },
+  "author": "Guy Royse <guy@guyroyse.com> (http://guyroyse.com/)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "prettier": "^3.3.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.4",
+    "vite-node": "^2.1.0",
+    "vitest": "^2.1.0"
+  }
+}

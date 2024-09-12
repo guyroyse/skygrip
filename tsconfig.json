@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "types": ["vitest/globals"],
+    "paths": {
+      "$lib/*": ["./lib/*"]
+    },
+    "noUncheckedIndexedAccess": true
+  },
+  "exclude": ["node_modules"]
+}
