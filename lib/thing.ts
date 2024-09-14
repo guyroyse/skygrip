@@ -1,6 +1,5 @@
+import Optional from '@guyroyse/optional'
 import { ulid } from 'ulid'
-
-import Optional from './optional'
 
 import { client as redisClient, ErrorReply, SchemaFieldTypes, SearchOptions, SearchReply } from './redis-client'
 

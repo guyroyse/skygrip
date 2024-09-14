@@ -1,5 +1,6 @@
 import { Thing, ThingData, ThingIterator } from '$lib/thing'
-import Optional from '$lib/optional'
+
+import Optional from '@guyroyse/optional'
 
 describe('Thing', () => {
   let thing: Thing
