@@ -1,10 +1,9 @@
 import { REDIS_HOST, REDIS_PASSWORD, REDIS_PORT } from './config'
 
+import { ErrorReply, RediSearchSchema, SchemaFieldTypes, SearchOptions, SearchReply } from 'redis'
+export { ErrorReply, RediSearchSchema, SchemaFieldTypes, SearchOptions, SearchReply }
+
 import { createClient } from 'redis'
-
-import { ErrorReply, SchemaFieldTypes, SearchOptions, SearchReply } from 'redis'
-
-export { ErrorReply, SchemaFieldTypes, SearchOptions, SearchReply }
 
 /* Redis connection options */
 const redisOptions = {

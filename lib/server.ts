@@ -7,7 +7,7 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
   res.send({
-    server: 'Overlapping Indices',
+    server: 'Skygrip',
     version: '1.0.0'
   })
 })
