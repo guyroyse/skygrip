@@ -96,7 +96,7 @@ export class Thing {
   }
 
   async remove() {
-    await redisClient.del(this.key)
+    await redisClient.unlink(this.key)
   }
 
   toJSON(): ThingData {
